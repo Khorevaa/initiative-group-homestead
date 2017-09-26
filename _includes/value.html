@@ -1,53 +1,23 @@
-<section id="value">
-    <!-- Page Content -->
-    {% for post in site.categories.value reversed %}
-      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-        {% if thecycle == 'odd' %}
-        <div class="content-section-a">
-    
-            <div class="container">
-    
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">{{ post.title }}</h2>
-                        <div class="lead">{{ post.content }}</div>
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+<section id="mission">
+	<div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        
+                        <h3>{{ page.value-desk }}</h1>
+                        <h1>Нашb ценности</h3>                    
+                        <h2>{{ page.value }}</h2>
+                        <h2>{{ page.value-1 }}</h2>
+                        <h2>{{ page.value-2 }}</h2>
+                        <hr class="intro-divider">
+                        
+                        </ul>
                     </div>
                 </div>
-    
             </div>
-            <!-- /.container -->
-    
-        </div>
-        <!-- /.content-section-a -->
-        {% else %}
-    
-        <div class="content-section-b">
-    
-            <div class="container">
-    
-                <div class="row">
-                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">{{ post.title }}</h2>
-                        <div class="lead">{{ post.content }}</div>
-                    </div>
-                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                      <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
-                    </div>
-                </div>
-    
-            </div>
-            <!-- /.container -->
-    
-        </div>
-        <!-- /.content-section-b -->
-        {% endif %}
-    {% endfor %}
-    </section>
-    
+
+        </div>       
+</section>
+<!-- /.banner -->
