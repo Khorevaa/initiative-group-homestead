@@ -1,7 +1,7 @@
 ---
 layout: default
 img: phones.png
-category: Services
+category: principles
 title: Google Web Fonts and<br>Font Awesome Icons
 description: |
 ---

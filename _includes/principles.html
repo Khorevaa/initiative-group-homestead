@@ -1,6 +1,6 @@
 <section id="principles">
     <!-- Page Content -->
-    {% for post in site.principles reversed %}
+    {% for post in site.categories.principles reversed %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         <div class="content-section-a">
