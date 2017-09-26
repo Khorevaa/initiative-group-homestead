@@ -9,8 +9,8 @@ author: Хорев Алексей
 description: > # "Write an awesome description for your new site here. 
   Сайт по организации создания поселения родовых поместий.
   КОБ, Мертвая Вода, ВП СССР, ДОТУ, Мерге, В. Мерге, Анастасия, Экопоселение.
-copyright: 'Copyright &copy; 2017 Khorev A.A.. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+copyright: 'Copyright &copy; 2017 Khorev A.A.. Все права защищены.'
+credits: 'Сайт создан для организации инициативной группы поселения родовых поместий.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -26,8 +26,9 @@ permalink: pretty
 
 social:
   - title: vk
-    url: https://twitter.com/SBootstrap
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://vk.com/club153296725
   - title: facebook
-    url: 
+    url: https://vk.com/club153296725
+  - title: github
+    url: https://github.com/Khorevaa/initiative-group-homestead
+  
