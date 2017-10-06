@@ -8,7 +8,7 @@ email: horevaa@yandex.ru
 author: Хорев Алексей
 description: > # "Write an awesome description for your new site here. 
   Сайт по организации создания поселения родовых поместий.
-  КОБ, Мертвая Вода, ВП СССР, ДОТУ, Мерге, В. Мерге, Анастасия, Экопоселение.
+  КОБ, Мертвая Вода, ВП СССР, ДОТУ, Мерге, В. Мерге, Анастасия, Родовое поселение.
 copyright: 'Copyright &copy; 2017 Khorev A.A.. Все права защищены.'
 credits: 'Сайт создан для организации инициативной группы поселения родовых поместий.'
 
@@ -20,6 +20,8 @@ credits: 'Сайт создан для организации инициатив
 markdown: kramdown
 permalink: pretty
 
+#plugins:
+#- jekyll-feed
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
